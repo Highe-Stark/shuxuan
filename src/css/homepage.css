@@ -1,0 +1,39 @@
+body {
+    font-family: Segeo-UI, sans-serif;
+    font-size: 20px;
+    margin: 5px;
+}
+
+#Logo, #SearchBar, #Account {
+    display: inline-block;
+    margin: 2px;
+}
+
+#Logo {
+    width: 30%;
+}
+
+#SearchBar {
+    width: 55%;
+}
+#SearchBar input {
+    background-color: lightskyblue;
+    border: none;
+    border-radius: 10px;
+}
+
+#Account {
+    width: 15%;
+}
+
+#navigator .navigation {
+    background-color: #ff7f50;
+    border: none;
+    width: 20%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#hot {
+    margin: 10px;
+}

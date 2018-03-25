@@ -1,5 +1,5 @@
 import React from 'react';
-// import ReactDom from 'react-dom';
+import User from '../../img/User.png';
 
 class Account extends React.Component {
     constructor () {
@@ -13,7 +13,7 @@ class Account extends React.Component {
     render() {
         return (
             <div id="User">
-                <img alt="profile" src="../../img/User.png"/>
+                <img alt="profile" height="30px" src={User}/>
             </div>
         );
     }

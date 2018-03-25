@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDom from 'react-dom';
+import searchIcon from '../../img/search.jpg';
 
 class SearchBar extends React.Component {
     // TODO - action when changed, render
@@ -11,8 +11,8 @@ class SearchBar extends React.Component {
         return (
             <div id="SearchBar">
                 <input type="text" placeholder="Search title or the author of the book"/>
-                <button onClick={this._search}><img id="searchIcon" alt="search" height="20px"
-                    src="../../img/search.jpg"/></button>
+                <button onClick={this._search}><img id="searchIcon" alt="search" height="28px"
+                    src={searchIcon}/></button>
             </div>
         );
     }
